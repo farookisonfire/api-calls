@@ -21,3 +21,7 @@ exports.textStyle = {
   padding:'0',
   margin:'0'
 }
+
+exports.navbarStyle = {
+  width: '100%'
+}

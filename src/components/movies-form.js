@@ -27,4 +27,4 @@ const MovieForm = React.createClass({
   }
 });
 
-module.exports = MovieForm
+module.exports = MovieForm;

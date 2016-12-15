@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farookkhan/react-webpack-node-starter.git"
+    "url": "git+https://github.com/farookkhan/api-calls.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/farookkhan/react-webpack-node-starter/issues"
+    "url": "https://github.com/farookkhan/api-calls/issues"
   },
-  "homepage": "https://github.com/farookkhan/react-webpack-node-starter#readme",
+  "homepage": "https://github.com/farookkhan/api-calls#readme",
   "devDependencies": {
     "babel-core": "^6.20.0",
     "babel-loader": "^6.2.9",
@@ -31,6 +31,9 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "react-router-bootstrap": "^0.23.1"
   }
 }
