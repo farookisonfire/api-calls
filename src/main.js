@@ -5,7 +5,7 @@ const { Router, Route, hashHistory, IndexRoute } = require('react-router');
 const App = require('./components/app');
 const Welcome = require('./components/welcome');
 const Movies = require('./components/movies');
-const GoogleMap = require('./components/maps');
+const MyMap = require('./components/map-contain');
 
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
       <Route path="/" component={App}>
         <IndexRoute component={Welcome}/>
         <Route path="/movies" component={Movies} />
-        <Route path="/maps" component={GoogleMap} />
+        <Route path="/maps" component={MyMap} />
       </Route>
     </Router>,
   document.getElementById('app')
