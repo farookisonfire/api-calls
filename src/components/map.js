@@ -14,7 +14,6 @@ const Map = React.createClass({
           lng: venue.location.lng
         }
       }
-
       return <Marker key={key} position={marker.position} />
     })
 
@@ -23,7 +22,7 @@ const Map = React.createClass({
           containerElement = { mapContainer }
           googleMapElement = {
             <GoogleMap
-              defaultZoom={10}
+              defaultZoom={17}
               defaultCenter={this.props.center}
               options={{streetViewControl: false, mapTypeControl: false}}
               >

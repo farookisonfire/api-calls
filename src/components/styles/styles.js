@@ -25,3 +25,20 @@ exports.textStyle = {
 exports.navbarStyle = {
   width: '100%'
 }
+
+exports.mapContainStyle = {
+  width:'400px',
+  height:'400px',
+  background:'lightblue',
+  padding:'0'
+}
+
+exports.mapSearch = {
+  width:'200px',
+  display:'inline-block',
+  borderRadius: 0
+}
+
+exports.mapSubmit = {
+  borderRadius: '0'
+}
