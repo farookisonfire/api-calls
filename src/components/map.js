@@ -24,6 +24,7 @@ const Map = React.createClass({
             <GoogleMap
               defaultZoom={17}
               defaultCenter={this.props.center}
+              center={this.props.center}
               options={{streetViewControl: false, mapTypeControl: false}}
               >
               {markers}
