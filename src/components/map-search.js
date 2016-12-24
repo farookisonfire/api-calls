@@ -23,6 +23,7 @@ const MapSearch = React.createClass({
               type="submit"
               value="Search"
               className="btn btn-default btn-info"
+              onClick={this.props.onSearch}
               style={mapSubmit}
             />
           </div>
